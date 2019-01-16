@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  BaseRxApplication
+
+  Created by Gary Dos Santos on 5/3/18.
+  Copyright © 2018. All rights reserved.
+*/
+
+"network_unavailable"="Xarxa inaccessible proyecto";
