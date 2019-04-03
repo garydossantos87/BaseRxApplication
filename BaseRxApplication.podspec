@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.swift_version             = '4.0'
   s.ios.deployment_target     = '10.0'
   s.name                      = "BaseRxApplication"
-  s.version                   = "1.0.0"
+  s.version                   = "1.0.1"
   s.summary 	    		= "Swift extensions for projects in Reactive."
   s.description  			= <<-DESC
   							       Swift extensions for projects in Reactive.Too.

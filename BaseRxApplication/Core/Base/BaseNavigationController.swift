@@ -53,7 +53,7 @@ open class BaseNavigationController: UINavigationController {
         navigationBar.isTranslucent = false
         navigationBar.barStyle = .black
         navigationBar.tintColor = tintColor
-        navigationBar.titleTextAttributes = [NSAttributedStringKey.font : titleFont]
+        navigationBar.titleTextAttributes = [NSAttributedStringKey.font : titleFont, NSAttributedStringKey.foregroundColor : tintColor]
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.white], for: .normal)
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.white], for: .selected)
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.white], for: .highlighted)
