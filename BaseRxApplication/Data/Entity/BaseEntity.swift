@@ -9,9 +9,9 @@
 import Foundation
 import ObjectMapper
 
-open class BaseEntity: Mappable {
+open class BaseEntity: NSObject, Mappable {
     
-    public init() {}
+    public override init() {}
     
     required public init?(map: Map) {
         
