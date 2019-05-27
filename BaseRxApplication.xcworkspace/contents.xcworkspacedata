@@ -5,12 +5,18 @@
       location = "group:BaseRxApplication.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:../baseproject/BaseProject.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:../baseproject/Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../BaseApplication/BaseProject.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../BaseApplication/Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

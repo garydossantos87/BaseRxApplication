@@ -12,12 +12,10 @@ def BaseRxApplicationPods
     pod 'Action'
     pod 'RxAlamofire'
     pod 'KeychainAccess'
-    pod 'ObjectMapper'
     pod 'MBProgressHUD'
     pod 'TTGSnackbar'                       #https://github.com/zekunyan/TTGSnackbar
     pod 'CocoaLumberjack/Swift'             #https://github.com/CocoaLumberjack/CocoaLumberjack
-    pod 'SnapKit'
-    pod 'JVFloatLabeledTextField'           #https://github.com/jverdi/JVFloatLabeledTextField
+    pod 'SnapKit'                           #https://github.com/SnapKit/SnapKit
     pod 'FTLinearActivityIndicator'         #https://github.com/futuretap/FTLinearActivityIndicator
     pod 'SwiftLint'                         #https://github.com/realm/SwiftLint
 end

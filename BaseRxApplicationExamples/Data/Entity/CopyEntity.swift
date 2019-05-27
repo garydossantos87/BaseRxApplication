@@ -2,7 +2,7 @@
 //  CopyEntity.swift
 //  BaseRxApplicationExamples
 //
-//  Created by BeRepublic on 22/09/2017.
+//  Created by  on 22/09/2017.
 //  Copyright © 2017. All rights reserved.
 //
 

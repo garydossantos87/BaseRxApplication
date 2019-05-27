@@ -44,13 +44,13 @@
 		07B70E7D206BDE88006605BF /* BaseTabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B70E7C206BDE88006605BF /* BaseTabBarProtocols.swift */; };
 		07B70E84206BEA6F006605BF /* CartTabBarCustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B70E83206BEA6F006605BF /* CartTabBarCustomItem.swift */; };
 		07BC8E4420C82773007EB555 /* DialogAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8E4320C82773007EB555 /* DialogAnimationController.swift */; };
-		07D662BF2049438500589BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D662BE2049438500589BDE /* Assets.xcassets */; };
 		07D662CF2049606600589BDE /* BaseRxApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077BBE6A2046B78E00F5153A /* BaseRxApplication.framework */; };
 		07F3D146204EFA5200849067 /* Error+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F3D145204EFA5200849067 /* Error+Utils.swift */; };
 		07FB0D3420B5756300D7F6D1 /* BaseRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FB0D3320B5756300D7F6D1 /* BaseRequestAdapter.swift */; };
 		441987AF8C9F8249986BDA78 /* Pods_BaseRxApplicationExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C8389F250F715A6A1C9ACC /* Pods_BaseRxApplicationExamples.framework */; };
 		BD0795CB2052A23700A18DB0 /* BaseLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0795CA2052A23700A18DB0 /* BaseLogFormatter.swift */; };
 		BD0B142A207BA42B00953A2C /* UIViewController+LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B1429207BA42B00953A2C /* UIViewController+LocationManager.swift */; };
+		BD177B69228D7FDC00608921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D662BE2049438500589BDE /* Assets.xcassets */; };
 		BD19E93020AAC22C00BDC786 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD19E92F20AAC22C00BDC786 /* BaseResponse.swift */; };
 		BD3D941C204D41C2009C64FE /* BaseUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3D941B204D41C2009C64FE /* BaseUseCaseImpl.swift */; };
 		BD43423C2051768D0077C069 /* UITableView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD43423B2051768D0077C069 /* UITableView+Utils.swift */; };
@@ -835,6 +835,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD177B69228D7FDC00608921 /* Assets.xcassets in Resources */,
 				0784C837204D3595009F3B00 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -854,7 +855,6 @@
 				BDC8C45820690B7300829AD4 /* ContactViewController.xib in Resources */,
 				BDC8C45320690B7300829AD4 /* ClusterMapDetailCell.xib in Resources */,
 				0784C834204D3560009F3B00 /* Localizable.strings in Resources */,
-				07D662BF2049438500589BDE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,12 +872,11 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/FTLinearActivityIndicator/FTLinearActivityIndicator.framework",
-				"${BUILT_PRODUCTS_DIR}/JVFloatLabeledTextField/JVFloatLabeledTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/TTGSnackbar/TTGSnackbar.framework",
@@ -888,12 +887,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTLinearActivityIndicator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JVFloatLabeledTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGSnackbar.framework",
